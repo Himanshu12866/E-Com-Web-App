@@ -1,0 +1,28 @@
+.homepage {
+    background-image: url("../../public/images/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    height: 560px;
+    // background-position: 10% 10%;
+    color: white;
+    // display: flex;
+    justify-content: flex-start;
+    line-height: 0;
+    // align-items: center;
+    color: #e9a698;
+    padding-top: 30px;
+}
+
+.homepage h1 {
+    position: relative;
+    margin-left: 60px;
+    margin-top: 30px;
+    // left: 60px;
+}
+
+header {
+    background-color: #111d1b;
+    box-shadow: 2px 2px 19px white;
+}

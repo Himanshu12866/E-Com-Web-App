@@ -1,0 +1,28 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 0.4rem;
+    // width: 100vw;
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+    table {
+        width: 70%;
+        margin-top: 1rem;
+    }
+
+    .products-heading {
+        margin-top: 2rem;
+    }
+
+    .products-table {
+        height: 200px;
+        overflow: auto;
+    }
+}

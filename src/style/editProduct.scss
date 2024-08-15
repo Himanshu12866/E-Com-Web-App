@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    flex-direction: row;
+    margin: 10px;
+
+    .input-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    form {
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .data-before {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 30%;
+        margin-left: 50px;
+    
+    }
+}
