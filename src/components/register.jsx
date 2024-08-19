@@ -92,11 +92,7 @@ const Register = () => {
 
                     <dd>
                         <TextField id="standard-basic" name='age' type='number' label="Age" className='w-100' variant="standard" onChange={formik.handleChange} />
-                        {/* <input
-                        type="number"
-                        name="age"
-                        className="form-control"
-                        onChange={formik.handleChange} /> */}
+                        {}
                     </dd>
 
                     <dd>
