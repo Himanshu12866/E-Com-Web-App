@@ -46,9 +46,7 @@ app.post("/register", async (req, res) => {
 
 // app.get("/login", async (req,res)=>{
 //     let obj = await mongoClient.connect(conStr)
-//     let database = obj.db("E-commerce")
-//     let documents = database.collection('users').findOne({})
-// })
+//     let database = obj.db("E-commerce"
 
 app.listen('5000')
 console.log("server started : http://127.0.0.1:5000")
