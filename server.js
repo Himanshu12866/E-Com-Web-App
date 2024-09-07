@@ -8,7 +8,7 @@ const conStr = 'mongodb://127.0.0.1:27017'
 let app = express()
 app.use(cors())
 app.use(urlencoded({
-    extends: true  // binary data convert into object
+    extends: true 
 }))
 app.use(json()) //data converted into JSON
 
