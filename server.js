@@ -21,7 +21,7 @@ app.get("/users", async (req, res) => {
     let database = obj.db("E-commerce");
     let documents = await database.collection('users').find({}).toArray()
     res.send(documents)
-    res.end() //it ends the response, otherwise response will active which load for memory
+    res.end() 
 })
 
 app.post("/register", async (req, res) => {
