@@ -53,7 +53,7 @@ const Cart = () => {
                                     <td><img src={productItem.image} alt="" height={50} width={50} /></td>
                                     <td>&#8377; {productItem.price}</td>
                                     <td><button className='btn btn-danger' onClick={() => dispatch(removeProduct(item.id))}>Delete</button></td>
-                                    {/* Other product information */}
+                                    {}
                                 </tr>
                             ))
                         ))
