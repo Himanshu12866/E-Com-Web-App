@@ -83,11 +83,7 @@ const Register = () => {
 
                     <dd>
                         <TextField id="standard-basic" name='password' type='password' required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$" label="Password" className='w-100' variant="standard" onChange={formik.handleChange} />
-                        {/* <input
-                        type="password"
-                        name="password"
-                        className="form-control"
-                        onChange={formik.handleChange} /> */}
+                        {}
                     </dd>
 
                     <dd>
