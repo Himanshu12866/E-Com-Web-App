@@ -2,7 +2,6 @@ import { useCallback, useEffect, useState } from "react"
 import "../../style/dashboard.scss"
 import axios from "axios"
 import { useNavigate } from "react-router-dom"
-// import { useParams } from "react-router-dom"
 import { useCookies } from "react-cookie"
 
 
