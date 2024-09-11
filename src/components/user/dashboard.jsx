@@ -94,13 +94,7 @@ const Dashboard = () => {
     }
 
 
-    // user or admin
-
-    // useEffect(() => {
-    //     function handleAdmin() {
-    //         { (user.password == "admin111") ? "Admin" : "User" }  //start from here
-    //     }
-    // }, [])
+    
 
     useEffect(() => {
         if (cookies.userId == undefined) {
