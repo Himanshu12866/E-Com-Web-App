@@ -1,7 +1,7 @@
 import { createSlice, nanoid } from '@reduxjs/toolkit'
 
 
-//create initialStates
+
 
 const initialState = {
     products: [{ id: 1, product: [] }]
