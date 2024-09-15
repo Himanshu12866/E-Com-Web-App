@@ -93,11 +93,8 @@ const Register = () => {
 
                     <dd>
                         <TextField id="standard-basic" name='mobile' type='text' pattern="^(?:\+?91)?[789]\d{9}$" label="Mobile" required className='w-100' variant="standard" onChange={formik.handleChange} />
-                        {/* <input
-                            type="text"
-                            name="mobile"
+                       
        
-     }
                     </dd>
 
                 </dl>
