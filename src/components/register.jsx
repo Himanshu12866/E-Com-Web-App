@@ -97,7 +97,7 @@ const Register = () => {
                             type="text"
                             name="mobile"
                             className
-     onChange={formik.handleChange} /> */}
+     }
                     </dd>
 
                 </dl>
