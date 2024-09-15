@@ -96,7 +96,7 @@ const Register = () => {
                         {/* <input
                             type="text"
                             name="mobile"
-                            className
+       
      }
                     </dd>
 
