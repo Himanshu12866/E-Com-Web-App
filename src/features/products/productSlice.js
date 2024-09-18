@@ -10,7 +10,7 @@ const initialState = {
 export const productSlice = createSlice({
     name: "Myntra Products",
     initialState,
-    //create reducers
+   
     reducers: {
         addProduct: (state, action) => {
             const product = {
