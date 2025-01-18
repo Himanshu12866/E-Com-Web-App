@@ -10,7 +10,7 @@ const Dashboard = () => {
     const [products, setProducts] = useState([])
     const [refresh, setRefresh] = useState(false)
     const Navigate = useNavigate()
-    /
+    
     const [cookies, setCookie, removeCookie] = useCookies()
     const [users, setUsers] = useState([])
     const [user, setUser] = useState({})
@@ -65,7 +65,7 @@ const Dashboard = () => {
     }
 
 
-    //delete product
+ 
     async function handleDelete(id) {
         try {
             // Show immediate feedback to the user
