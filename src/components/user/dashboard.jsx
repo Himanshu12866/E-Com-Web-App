@@ -10,7 +10,7 @@ const Dashboard = () => {
     const [products, setProducts] = useState([])
     const [refresh, setRefresh] = useState(false)
     const Navigate = useNavigate()
-    // const params = useParams()
+    /
     const [cookies, setCookie, removeCookie] = useCookies()
     const [users, setUsers] = useState([])
     const [user, setUser] = useState({})
