@@ -1,7 +1,6 @@
 import express, { urlencoded } from "express";
 import cors from 'cors'
 import { MongoClient } from "mongodb";
-
 const url = "mongodb://127.0.0.1:27017"
 const app = express()
 app.use(cors())
@@ -12,12 +11,9 @@ app.use(express.json());
 
 // thIS IS  ALSO INCLUDED
 
-
-
 app.get('/', (req, res) => {
     res.send("<h1>products Server</h1>")
 })
-
 // All products 
 
 app.get('/allproducts', async (req, res) => {   // 1. 
